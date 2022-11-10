@@ -6,6 +6,6 @@
 This project I developed using some hover effects and card animations.
 This is also available in Netlify.
 ***
-[Netlify]()
+[Netlify](https://app.netlify.com/sites/project15-live-class/overview)
 ***
-![badge]()
+![badge](https://img.shields.io/badge/Live--Class-Project15-important)
