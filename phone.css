@@ -1,0 +1,188 @@
+.nav {
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    margin-left: 0px;
+}
+.list-items {
+    margin-right: 0px; 
+}
+.list-item {
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 12px;
+}
+/* --- section-1 --- */
+.section-1 {
+    flex-direction: column;
+}
+#img1 {
+    margin-left: 0px;
+}
+.text-1 {
+    margin-top: 50px;
+    text-align: center;
+}
+.text-1 h4{
+    color: #ff0000;
+}
+.text-1 h1 {
+    font-size: 70px;
+}
+#btn {
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+}
+/***   section-2   ***/
+.section-2 {
+    background: linear-gradient(to right, #252525 50%, #0f0f0f 50%);
+    margin-top: 20px;
+}
+.cards {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.card h3 {
+    font-size: 25px;
+    margin-top: -50px;
+}
+.card p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.card h6 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.bottom {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.left {
+    margin-left: 0px;
+ 
+    
+}
+.left h1{
+    font-size: 100px;
+    margin-top: 0px;
+}
+.left h4 {
+    font-size: 25px;
+}
+.right-top {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.box {
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+}
+.box h1 {
+    font-size: 45px;
+}
+.right-bottom {
+    flex-direction: column;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+/*----  Sectio-3  ----*/
+.section-3 {
+    width: 100%;
+    margin-left: 0;
+}
+.sec-3-top {
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.top-parts {
+  flex-direction: column;
+  align-items: center;
+}
+.projects{
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    padding-top: 20px;
+}
+.sec-3-mid h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.sec-3-mid h5 {
+    margin-top: 10px;
+    color: #ff0000;
+    padding-bottom: 20px;
+}
+.bottom-parts {
+    flex-direction: column;
+    align-items: center;
+}
+#project {
+    height: 160px;
+    width: 300px;
+}
+/*---- section-4 ----*/
+.section-4 {
+    height: auto;
+   flex-direction: column;
+}
+
+.left-part h1 {
+    font-size: 30px;
+}
+.left-part p {
+    margin-top: 10px;
+}
+.right-part {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/*--- section-5 ---*/
+.section-5 {
+    padding-top: 20px;
+}
+.bottom-list-item {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+/*---- footer ---*/
+.footer {
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    padding-top: 20px;
+    background-color: crimson;
+}
+.footer-img {
+   margin-left: 10px;
+}
+.icons{
+   margin-left: 17%;
+}
+.icons img {
+    margin-left: 10px;
+}

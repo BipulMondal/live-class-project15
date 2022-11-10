@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0f0f0f;
+    color: #fff;
+   font-family: 'Montserrat', sans-serif;
+}
+/*  header */
+.header {
+    height: auto;
+    width: 100%;
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+.list-items {
+    margin-right: 150px;
+    display: flex;
+    list-style-type: none;   
+}
+.list-item {
+    margin-right: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 12px;
+}
+/*--- drop down icon  ---*/
+.list-items li:nth-child(1) {
+    position: relative;
+}
+.list-items li:nth-child(1)::after {  
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fff;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.list-items li:nth-child(5) {
+    position: relative;
+}
+.list-items li:nth-child(5)::after {  
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #ffffff;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+/* --- section-1 --- */
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+}
+#img1 {
+    margin-left: -50px;
+    margin-top: 5px;
+    height: 500px;
+}
+.text-1 {
+    margin-top: 200px;
+}
+.text-1 h4{
+    color: #ff0000;
+}
+.text-1 h1 {
+    font-size: 70px;
+}
+#btn {
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+/***   section-2   ***/
+.section-2 {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to right, #252525 50%, #0f0f0f 50%);
+    margin-top: 10px;
+}
+.cards {
+    height: auto;
+    width: 72%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: #1d1c1c;
+    padding: 30px;
+    cursor: pointer;
+}
+.card h3 {
+    font-size: 25px;
+    margin-top: -50px;
+}
+.card p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.card h6 {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ff0000;
+}
+.cards div:nth-child(2) {
+    background-color: #ff0000;
+}
+#mid-know {
+    color:#fff;
+}
+.bottom {
+    height: auto;
+    width: 71%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+.left {
+    text-align: center;
+    margin-left: 50px;
+}
+.left h1{
+    font-size: 100px;
+    margin-top: 30px;
+    color: #ff0000;
+}
+.left h4 {
+    font-size: 25px;
+}
+.right-top {
+    height: auto;
+    width: 100%;
+    display: flex;
+  
+}
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: #2e2b2b;
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.box h1 {
+    font-size: 45px;
+    color: #ff0000;
+}
+.right-bottom {
+    display: flex;
+    margin-top: 20px;
+}
+/*----  Sectio-3  ----*/
+.section-3 {
+    height: auto;
+    width: 71%;
+    margin-left: 13%;
+    padding-top: 30px;
+}
+.sec-3-top {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-3-mid {
+    height: auto;
+    width: 100%;
+}
+.top-parts {
+    display: flex;
+    justify-content: space-between;
+}
+.projects{
+    height: 280px;
+    width: 460px;
+    background-color: #4d4d4d;
+    text-align: center;
+    padding-top: 38px;
+    cursor: pointer;
+}
+.sec-3-mid h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sec-3-mid h5 {
+    margin-top: 10px;
+    color: #ff0000;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.bottom-parts {
+    display: flex;
+    justify-content: space-between;
+}
+#project {
+    height: 200px;
+    width: 420px;
+}
+/*---- section-4 ----*/
+.section-4 {
+    height: 40vh;
+    width: 71%;
+    margin-left: 13%;
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    padding: 40px;
+    display: flex;
+}
+
+.left-part h1 {
+    font-size: 50px;
+}
+.left-part p {
+    margin-top: 15px;
+}
+.right-part {
+    margin-top: 45px;
+    margin-right: 100px;
+}
+
+/*--- section-5 ---*/
+.section-5 {
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+.bottom-list-items {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.bottom-list-item {
+    margin-left: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*---- footer ---*/
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #1f1f1f;
+    margin-top: 15px;
+    display: flex;
+    padding-top: 20px;
+}
+.footer-img {
+   margin-left: 13%;
+}
+.icons{
+   margin-left: 330px;
+}
+.icons img {
+    margin-left: 30px;
+    cursor: pointer;
+}
+/*--- animation ---*/
+.list-item:hover {
+    color: #ff0000;
+    font-weight: bold;
+}
+#btn:hover {
+    border-radius: 30px;
+    border: 2px solid #ff0000;
+    background-color: #000;
+    color: #ff0000;
+    transition: all .8s ;
+}
+.card:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px #ff0000;
+}
+.cards div:nth-child(2):hover {
+    box-shadow: 2px 2px 2px 2px #fff;
+}
+.box:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 2px 2px 0px 0px #ff0000;
+}
+.projects:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px #ff002b;
+}
+.sec-3-mid h2:hover {
+    color:#ff0000; 
+}
+.sec-3-mid h5:hover {
+    color:#fff;  
+}
+.bottom-list-item:hover{
+    color: #ff0000;
+
+}
+.icons img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    background-color: #ff0000;
+    border-radius: 30px;
+    transition: all .2s;
+}
